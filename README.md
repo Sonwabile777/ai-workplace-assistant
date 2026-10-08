@@ -1,68 +1,35 @@
-# ai-workplace-assistant
-An AI-powered assistant that automates workplace tasks including email generation, meeting summarization, task planning, research assistance, and chatbot interaction
-# AI Workplace Assistant
+# AI Productivity Assistant
 
-An AI-powered assistant designed to automate key workplace tasks including:
+A multi-tool workplace assistant powered by **Google Gemini** and **Streamlit**.
+Built for the **AI Skill Accelerator Programme**.
 
-- Email generation
-- Meeting summarization
-- Task planning
-- Research assistance
-- Chatbot interaction
+---
 
-## Project overview
+## 🚀 Features
 
-This project demonstrates strong prompt engineering and practical AI use in a business context. It includes a responsive portfolio website and a demo interface for common productivity workflows.
+| # | Feature | Description |
+|---|---------|-------------|
+| 1 | **Smart Email Generator** | Context-aware emails with tone, audience, and length control |
+| 2 | **Meeting Notes Summarizer** | Concise summaries, key points, decisions, and action items |
+| 3 | **AI Task Planner** | Prioritized daily/weekly schedules with time-optimisation tips |
+| 4 | **AI Research Assistant** | Summarises articles/topics and extracts insights + caveats |
+| 5 | **AI Chatbot** | Interactive multi-turn workplace assistant |
 
-## Features
+---
 
-- AI-powered email drafting
-- Meeting recap and action item extraction
-- Weekly planning and project task organization
-- Research support for quick summaries and decision-making
-- Chatbot-style business assistance
-- Responsible AI guidance and human review principles
+## 🛠️ Tech Stack
 
-## Tech stack
+- **Python 3.10+**
+- **Streamlit** – UI framework
+- **Google Gen AI SDK** (`google-genai`) – Gemini API access
+- **Gemini 3.5 Flash** – default model (configurable in sidebar)
 
-- React + Vite
-- OpenAI-compatible chat completion API via environment variables
-- CSS for a modern portfolio UI
+---
 
-## Local setup
+## 📦 Installation
 
-1. Install dependencies:
-   npm install
-2. Create a local environment file:
-   cp .env.example .env
-3. Add your API key:
-   VITE_OPENAI_API_KEY=your_key_here
-4. Start the app:
-   npm run dev
-5. Build for production:
-   npm run build
+### 1. Clone the repository
 
-## Deployment options
-
-This application is ready for deployment to Vercel or Netlify.
-
-### Vercel
-
-1. Push the repo to GitHub.
-2. Import it in Vercel.
-3. Add environment variables:
-   - VITE_OPENAI_API_KEY
-   - VITE_OPENAI_MODEL
-4. Deploy.
-
-## Responsible AI notes
-
-- Keep humans in the loop for final decisions.
-- Review generated content before sending externally.
-- Protect confidential business information.
-- Avoid generating false or misleading statements.
-
-## Presentation
-
-A slide-ready presentation outline is included in the repository at `presentation/ai-workplace-assistant-deck.md`.
-        
+```bash
+git clone https://github.com/your-username/ai-productivity-assistant.git
+cd ai-productivity-assistant
