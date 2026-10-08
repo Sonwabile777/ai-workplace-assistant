@@ -1,0 +1,9 @@
+# Ignore dependencies and build artifacts
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+
+# OS files
+.DS_Store
